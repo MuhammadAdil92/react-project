@@ -1,0 +1,292 @@
+{
+  "banner": {
+    "title": "Hajj Groups Project",
+    "subtitle": "Operational Season 1448H",
+    "startDate": "01/05/1448H",
+    "endDate": "04/05/1448H",
+    "tagline": "Serving the Guests of Allah with Trust and Responsibility",
+    "backgroundImage": "../assets/banner/hajj-groups-banner.png"
+  },
+  "kpi": {
+    "progress": {
+      "percent": 6,
+      "label": "Completed"
+    },
+    "summary": {
+      "highlight": "14 of 241",
+      "text": "tasks completed",
+      "description": "Track the full journey of the Hajj Groups Project to ensure a seamless experience for pilgrims, partners and stakeholders."
+    },
+    "stats": [
+      {
+        "id": "completed",
+        "value": 14,
+        "label": "Completed",
+        "variant": "success",
+        "icon": "CircleCheck"
+      },
+      {
+        "id": "inProgress",
+        "value": 0,
+        "label": "In Progress",
+        "variant": "info",
+        "icon": "RefreshCw"
+      },
+      {
+        "id": "delayed",
+        "value": 99,
+        "label": "Delayed",
+        "variant": "danger",
+        "icon": "CircleAlert"
+      },
+      {
+        "id": "notStarted",
+        "value": 128,
+        "label": "Not Started",
+        "variant": "warning",
+        "icon": "Clock"
+      },
+      {
+        "id": "upcoming",
+        "value": 1002,
+        "label": "Upcoming",
+        "variant": "purple",
+        "icon": "Layers"
+      }
+    ]
+  },
+  "projectPhases": {
+    "title": "Project Phases",
+    "overallProgress": 6,
+    "phases": [
+      {
+        "id": "season-preparation",
+        "name": "Season Preparation",
+        "percent": 0,
+        "completedTasks": 0,
+        "totalTasks": 31,
+        "icon": "building"
+      },
+      {
+        "id": "field-operations",
+        "name": "Field Operations",
+        "percent": 2,
+        "completedTasks": 1,
+        "totalTasks": 52,
+        "icon": "people"
+      },
+      {
+        "id": "transportation-mobility",
+        "name": "Transportation & Mobility",
+        "percent": 4,
+        "completedTasks": 1,
+        "totalTasks": 24,
+        "icon": "transport"
+      },
+      {
+        "id": "accommodation",
+        "name": "Accommodation",
+        "percent": 8,
+        "completedTasks": 3,
+        "totalTasks": 36,
+        "icon": "accommodation"
+      },
+      {
+        "id": "permits-compliance",
+        "name": "Permits & Compliance",
+        "percent": 4,
+        "completedTasks": 2,
+        "totalTasks": 38,
+        "icon": "permits"
+      },
+      {
+        "id": "contracts",
+        "name": "Contracts",
+        "percent": 10,
+        "completedTasks": 4,
+        "totalTasks": 40,
+        "icon": "contracts"
+      },
+      {
+        "id": "planning",
+        "name": "Planning",
+        "percent": 25,
+        "completedTasks": 5,
+        "totalTasks": 20,
+        "icon": "planning"
+      }
+    ]
+  },
+  "delayedTasks": {
+    "title": "Delayed Tasks",
+    "count": 99,
+    "actionLabel": "View All Tasks",
+    "tasks": [
+      {
+        "id": "hotel-agreements",
+        "status": "Delayed",
+        "dueDate": "01/05/1448H",
+        "department": "Accommodation",
+        "task": "Contract hotel agreements",
+        "priority": "High"
+      },
+      {
+        "id": "partner-permit-data",
+        "status": "Delayed",
+        "dueDate": "03/05/1448H",
+        "department": "Permits & Compliance",
+        "task": "Complete permit data for partners",
+        "priority": "High"
+      },
+      {
+        "id": "transport-fleet",
+        "status": "In Progress",
+        "dueDate": "05/05/1448H",
+        "department": "Transportation",
+        "task": "Prepare transport fleet for Hajj",
+        "priority": "Medium"
+      },
+      {
+        "id": "operational-services",
+        "status": "In Progress",
+        "dueDate": "06/05/1448H",
+        "department": "Field Operations",
+        "task": "Prepare main operational services",
+        "priority": "Medium"
+      },
+      {
+        "id": "government-agreements",
+        "status": "On Track",
+        "dueDate": "07/05/1448H",
+        "department": "Contracts",
+        "task": "Finalize government agreements",
+        "priority": "Low"
+      }
+    ]
+  },
+  "departmentReadiness": {
+    "title": "Department Readiness",
+    "departments": [
+      { "id": "operations", "name": "Operations Management", "percent": 70 },
+      { "id": "accommodation", "name": "Accommodation Management", "percent": 45 },
+      { "id": "transport", "name": "Transport & Mobility", "percent": 30 },
+      { "id": "permits", "name": "Permits & Compliance", "percent": 80 },
+      { "id": "government", "name": "Government Relations", "percent": 60 },
+      { "id": "field", "name": "Field Operations", "percent": 25 },
+      { "id": "pilgrim", "name": "Pilgrim Services", "percent": 35 }
+    ]
+  },
+  "travelCompanyReadiness": {
+    "title": "Travel Company Readiness",
+    "actionLabel": "View All Companies",
+    "companies": [
+      {
+        "id": "al-mashaar",
+        "name": "Al Mashaar Travel",
+        "percent": 80,
+        "status": "Completed",
+        "mark": "A",
+        "color": "text-amber-500"
+      },
+      {
+        "id": "nusuk",
+        "name": "Nusuk Travel",
+        "percent": 45,
+        "status": "Delayed",
+        "mark": "N",
+        "color": "text-amber-600"
+      },
+      {
+        "id": "makkah-route",
+        "name": "Makkah Route Company",
+        "percent": 20,
+        "status": "Missing Data",
+        "mark": "M",
+        "color": "text-blue-800"
+      },
+      {
+        "id": "al-safa",
+        "name": "Al Safa Tourism",
+        "percent": 60,
+        "status": "In Progress",
+        "mark": "S",
+        "color": "text-blue-700"
+      },
+      {
+        "id": "al-noor",
+        "name": "Al Noor Travel",
+        "percent": 10,
+        "status": "Not Started",
+        "mark": "△",
+        "color": "text-amber-600"
+      },
+      {
+        "id": "haram-services",
+        "name": "Haram Services Co.",
+        "percent": 0,
+        "status": "Upcoming",
+        "mark": "◇",
+        "color": "text-amber-700"
+      }
+    ]
+  },
+  "projectScheduleProgress": {
+    "title": "Project Schedule Progress",
+    "series": [
+      {
+        "id": "planned",
+        "name": "Planned",
+        "color": "#2563eb",
+        "values": [0, 25, 38, 53, 84, 94]
+      },
+      {
+        "id": "actual",
+        "name": "Actual",
+        "color": "#16a34a",
+        "values": [0, 8, 13, 17]
+      }
+    ],
+    "periods": [
+      "Sha'ban",
+      "Ramadan",
+      "Shawwal",
+      "Dhu al-Qi'dah",
+      "Dhu al-Hijjah",
+      "Season"
+    ]
+  },
+  "operationalIndicators": {
+    "title": "Key Operational Indicators",
+    "actionLabel": "View Details",
+    "bannerTitle": "A Smooth Journey",
+    "bannerSubtitle": "for the Guests of Allah"
+  },
+  "risksAndAlerts": {
+    "title": "Risks and Alerts",
+    "actionLabel": "View All",
+    "items": [
+      { "id": "hotel-contracts", "level": "High", "message": "Delay risk in hotel contract signings" },
+      { "id": "transport-data", "level": "High", "message": "Missing transport fleet data" },
+      { "id": "permit-issuance", "level": "Medium", "message": "Potential delay in permit issuance" },
+      { "id": "site-capacity", "level": "Medium", "message": "Capacity constraints at some sites" },
+      { "id": "weather", "level": "Low", "message": "Weather-related contingency planning" }
+    ]
+  },
+  "geographicDistribution": {
+    "title": "Geographic Distribution",
+    "legend": [
+      { "id": "holy-sites", "label": "Holy Sites", "type": "pin" },
+      { "id": "accommodation", "label": "Accommodation", "type": "building" },
+      { "id": "transport-hubs", "label": "Transport Hubs", "type": "bus" },
+      { "id": "key-routes", "label": "Key Routes", "type": "route" },
+      { "id": "company-coverage", "label": "Company Coverage", "type": "area" }
+    ],
+    "locations": [
+      { "id": "madinah", "name": "Madinah", "x": 88, "y": 13 },
+      { "id": "mina", "name": "Mina", "x": 77, "y": 38 },
+      { "id": "arafat", "name": "Arafat", "x": 84, "y": 68 },
+      { "id": "muzdalifah", "name": "Muzdalifah", "x": 65, "y": 84 },
+      { "id": "makkah", "name": "Makkah", "x": 35, "y": 72 }
+    ]
+  }
+}

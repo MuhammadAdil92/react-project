@@ -1,0 +1,228 @@
+{
+  "banner": {
+    "title": "Chief Executive Officer",
+    "subtitle": "Executive Dashboard",
+    "summary": "Company and main entities completion rate",
+    "asOfDate": "04/05/1448H"
+  },
+  "overallCompletedRate": {
+    "progress": {
+      "percent": 3,
+      "label": "Completed"
+    },
+    "title": "Overall Company Completion Rate",
+    "description": "All tasks approved for the current year, including all company projects and main entities, and their sub-tasks.",
+    "completionSummary": {
+      "completed": 32,
+      "total": 942,
+      "upcomingNotStarted": 2348,
+      "upcomingTotal": 2348
+    },
+    "stats": [
+      {
+        "id": "completed",
+        "value": 32,
+        "label": "Completed",
+        "variant": "success",
+        "icon": "CircleCheck"
+      },
+      {
+        "id": "inProgress",
+        "value": 0,
+        "label": "In Progress",
+        "variant": "info",
+        "icon": "RefreshCw"
+      },
+      {
+        "id": "delayed",
+        "value": 289,
+        "label": "Delayed",
+        "variant": "danger",
+        "icon": "CircleAlert"
+      },
+      {
+        "id": "notStarted",
+        "value": 621,
+        "label": "Not Started",
+        "variant": "warning",
+        "icon": "Clock"
+      },
+      {
+        "id": "upcoming",
+        "value": 2348,
+        "label": "Upcoming",
+        "variant": "purple",
+        "icon": "Layers"
+      }
+    ],
+    "totalCompanyTasks": 3290
+  },
+  "mainEntities": {
+    "title": "Main Entities",
+    "description": "Click on any entity to view a list of assigned tasks and their status.",
+    "entities": [
+      {
+        "id": "corporate-affairs",
+        "name": "Corporate Affairs Unit",
+        "percent": 0,
+        "icon": "Building"
+      },
+      {
+        "id": "government-relations",
+        "name": "Government Relations Unit",
+        "percent": 0,
+        "icon": "UsersRound"
+      },
+      {
+        "id": "shared-services",
+        "name": "Shared Services Sector",
+        "percent": 0,
+        "icon": "Settings"
+      },
+      {
+        "id": "institutional-excellence",
+        "name": "Institutional Excellence Unit",
+        "percent": 3,
+        "icon": "Award"
+      },
+      {
+        "id": "campus-operation",
+        "name": "Campus Operation Project",
+        "percent": 6,
+        "icon": "Tent"
+      },
+      {
+        "id": "direct-hajj",
+        "name": "Direct Hajj Project",
+        "percent": 6,
+        "icon": "Users"
+      },
+      {
+        "id": "hajj-groups",
+        "name": "Hajj Groups Project",
+        "percent": 6,
+        "icon": "Box"
+      }
+    ]
+  },
+  "projectCards": [
+    {
+      "id": "hajj-groups",
+      "name": "Hajj Groups Project",
+      "percent": 6,
+      "completed": 14,
+      "departmentCount": 15,
+      "icon": "Building2",
+      "stats": {
+        "completed": 14,
+        "inProgress": 0,
+        "delayed": 99,
+        "notStarted": 128,
+        "upcoming": 1002
+      }
+    },
+    {
+      "id": "direct-hajj",
+      "name": "Direct Hajj Project",
+      "percent": 6,
+      "completed": 7,
+      "departmentCount": 14,
+      "icon": "Tent",
+      "stats": {
+        "completed": 7,
+        "inProgress": 0,
+        "delayed": 29,
+        "notStarted": 76,
+        "upcoming": 569
+      }
+    },
+    {
+      "id": "camps-operation",
+      "name": "Camps Operation Project",
+      "percent": 6,
+      "completed": 6,
+      "departmentCount": 15,
+      "icon": "Box",
+      "stats": {
+        "completed": 6,
+        "inProgress": 0,
+        "delayed": 25,
+        "notStarted": 71,
+        "upcoming": 538
+      }
+    },
+    {
+      "id": "shared-services",
+      "name": "Shared Services Sector",
+      "percent": 0,
+      "completed": 0,
+      "departmentCount": 6,
+      "icon": "Settings",
+      "stats": {
+        "completed": 0,
+        "inProgress": 0,
+        "delayed": 12,
+        "notStarted": 58,
+        "upcoming": 65
+      }
+    },
+    {
+      "id": "institutional-excellence",
+      "name": "Institutional Excellence Unit",
+      "percent": 3,
+      "completed": 3,
+      "departmentCount": 4,
+      "icon": "Star",
+      "stats": {
+        "completed": 3,
+        "inProgress": 0,
+        "delayed": 63,
+        "notStarted": 42,
+        "upcoming": 42
+      }
+    },
+    {
+      "id": "government-relations",
+      "name": "Government Relations Unit",
+      "percent": 0,
+      "completed": 0,
+      "departmentCount": 1,
+      "icon": "UsersRound",
+      "stats": {
+        "completed": 0,
+        "inProgress": 0,
+        "delayed": 15,
+        "notStarted": 34,
+        "upcoming": 20
+      }
+    },
+    {
+      "id": "corporate-affairs",
+      "name": "Corporate Affairs Unit",
+      "percent": 0,
+      "completed": 0,
+      "departmentCount": 2,
+      "icon": "Building",
+      "stats": {
+        "completed": 0,
+        "inProgress": 0,
+        "delayed": 4,
+        "notStarted": 14,
+        "upcoming": 4
+      }
+    }
+  ],
+  "subsidiariesAndAffiliateEntities": {
+    "title": "Subsidiaries and Affiliate Entities",
+    "percent": 1,
+    "completed": 21,
+    "totalTasks": 352,
+    "stats": {
+      "completed": 21,
+      "inProgress": 2,
+      "delayed": 42,
+      "notStarted": 198,
+      "upcoming": 110
+    }
+  }
+}
